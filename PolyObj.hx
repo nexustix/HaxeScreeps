@@ -2,8 +2,8 @@ package;
 
 abstract PolyObj<T>(Dynamic<T>) from Dynamic<T>{
 
-    public inline function new( v : Type ) {
-        this = v;
+    public inline function new() {
+        this = {};
     }
 
     @:arrayAccess
