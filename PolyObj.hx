@@ -1,3 +1,5 @@
+package;
+
 abstract PolyObj<T>(Dynamic<T>) {
 
     public inline function new( v : Type ) {
