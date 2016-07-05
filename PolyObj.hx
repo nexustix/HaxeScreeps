@@ -1,6 +1,6 @@
 package;
 
-abstract PolyObj<T>(Dynamic<T>) {
+abstract PolyObj<T>(Dynamic<T>) from Dynamic<T>{
 
     public inline function new( v : Type ) {
         this = v;
@@ -32,7 +32,7 @@ abstract PolyObj<T>(Dynamic<T>) {
         return Reflect.fields(this);
     }
 
-    public inline function iterator(){
+    public function iterator(){
         return new PolyObjIterator<T> (cast this);
     }
 }
