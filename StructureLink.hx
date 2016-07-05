@@ -1,0 +1,4 @@
+package;
+
+extern class StructureLink {
+}
