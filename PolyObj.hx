@@ -43,7 +43,7 @@ class PolyObjIterator<T> {
     var i:      Int = 0;
 
     public function new(obj: PolyObj<T>) {
-        this.keys = obj.getKeys;
+        this.keys = obj.getKeys();
         this.obj = obj;
     }
 
