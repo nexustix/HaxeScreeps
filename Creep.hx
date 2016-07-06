@@ -1,7 +1,7 @@
 package;
 
 extern class Creep extends RoomObject{
-    public static var body:             BodyPart;
+    public static var body:             Array<BodyPart>;
     //public static var carry: ???;
     public static var carryCapacity:    Int;
     public static var fatigue:          Int;
@@ -16,9 +16,7 @@ extern class Creep extends RoomObject{
     public static var ticksToLive:      Int;
 
 
-    //TODO use function overloading to make functions less broad ?
-
-    @:overload(function(target: StructureSpawn): Int{})
+    //@:overload(function(target: StructureSpawn): Int{})
     @:overload(function(target: Structure): Int{})
     public function attack(target: Creep): Int;
 
@@ -31,23 +29,40 @@ extern class Creep extends RoomObject{
     public function dismantle(target: Structure): Int;
     public function drop(resourceType: String, ?amount: Int): Int;
     public function getActiveBodyparts(type: String): Int;
-    //XXX RoomObject istead of Source or Mineral
 
-    //public function harvest(target: RoomObject): Int;
     @:overload(function(target: Mineral): Int{})
     public function harvest(target: Source): Int;
-    //public function harvest(target: Mineral): Int;
 
     public function heal(target: Creep): Int;
     public function move(direction: Int): Int;
-    //??? public function moveByPath(): Int;
-    //FIXME add otions
-    //public function moveTo(x: Int,y: Int): Int;
+    public function moveByPath(path: Path): Int;
+
     @:overload(function(x: Int,y: Int): Int{})
     @:overload(function(target: RoomObject): Int{})
     public function moveTo(target: RoomPosition): Int;
-    //public function moveTo(target: RoomObject): Int;
-    //@:overload(function():)
+
+    public function notifyWhenAttacked(enabled: Bool): Int;
+    public function pickup(target: Resource): Int;
+
+    //@:overload(function(target: StructureSpawn): Int{})
+    @:overload(function(target: Structure): Int{})
+    public function rangedAttack(target: Creep): Int;
+
+    public function rangedHeal(target: Creep): Int;
+    public function rangedMassAttack(): Int;
+    public function repair(target: Structure): Int;
+    //XXX StructureController istead of Structure
+    public function reserveController(target: StructureController): Int;
+    public function say(message: String): Int;
+    public function suicide(): Int;
+
+    @:overload(function(target: Structure, resourceType: String, ?amount: Int): Int{})
+    public function transfer(target: Creep, resourceType: String, ?amount: Int): Int;
+
+    //XXX StructureController istead of Structure
+    public function upgradeController(target: StructureController): Int;
+
+    //@:overload(function(): {})
     //public function (): ;
 }
 
