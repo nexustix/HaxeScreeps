@@ -40,8 +40,8 @@ extern class Creep extends RoomObject{
     //??? public static function moveByPath(): Int;
     //FIXME add otions
     public static function moveTo(x,y): Int;
-    public static function moveTo(target: RoomPosition): ;
-    public static function moveTo(target: RoomObject): ;
+    public static function moveTo(target: RoomPosition): Int;
+    public static function moveTo(target: RoomObject): Int;
     //public static function (): ;
 }
 
