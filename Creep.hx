@@ -18,7 +18,7 @@ extern class Creep extends RoomObject{
 
     //TODO use function overloading to make functions less broad ?
 
-    @:overload(function(target: Spawn): Int{})
+    @:overload(function(target: StructureSpawn): Int{})
     @:overload(function(target: Structure): Int{})
     public function attack(target: Creep): Int;
 
