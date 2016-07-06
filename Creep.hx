@@ -31,17 +31,17 @@ extern class Creep extends RoomObject{
     public static function getActiveBodyparts(type: String): Int;
     //XXX RoomObject istead of Source or Mineral
 
-    //public static function harvest(target: RoomObject): Int;
-    public static function harvest(target: Source): Int;
-    public static function harvest(target: Mineral): Int;
+    public static function harvest(target: RoomObject): Int;
+    //public static function harvest(target: Source): Int;
+    //public static function harvest(target: Mineral): Int;
 
     public static function heal(target: Creep): Int;
     public static function move(direction: Int): Int;
     //??? public static function moveByPath(): Int;
     //FIXME add otions
-    public static function moveTo(x,y): Int;
+    //public static function moveTo(x: Int,y: Int): Int;
     public static function moveTo(target: RoomPosition): Int;
-    public static function moveTo(target: RoomObject): Int;
+    //public static function moveTo(target: RoomObject): Int;
     //public static function (): ;
 }
 
