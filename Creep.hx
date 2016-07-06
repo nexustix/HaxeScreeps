@@ -18,8 +18,10 @@ extern class Creep extends RoomObject{
 
     //TODO use function overloading to make functions less broad ?
 
-    //XXX verry broad
-    public function attack(target: RoomObject): Int;
+    @:overload(function(target: Spawn): Int)
+    @:overload(function(target: Structure): Int)
+    public function attack(target: Creep): Int;
+
     //XXX StructureController istead of Structure
     public function attackController(target: StructureController): Int;
     public function build(target: ConstructionSite): Int;
@@ -31,8 +33,9 @@ extern class Creep extends RoomObject{
     public function getActiveBodyparts(type: String): Int;
     //XXX RoomObject istead of Source or Mineral
 
-    public function harvest(target: RoomObject): Int;
-    //public function harvest(target: Source): Int;
+    //public function harvest(target: RoomObject): Int;
+    @:overload(function(target: Mineral): Int)
+    public function harvest(target: Source): Int;
     //public function harvest(target: Mineral): Int;
 
     public function heal(target: Creep): Int;
@@ -40,8 +43,11 @@ extern class Creep extends RoomObject{
     //??? public function moveByPath(): Int;
     //FIXME add otions
     //public function moveTo(x: Int,y: Int): Int;
+    @:overload(function(x: Int,y: Int): Int)
+    @:overload(function(target: RoomObject): Int)
     public function moveTo(target: RoomPosition): Int;
     //public function moveTo(target: RoomObject): Int;
+    //@:overload(function():)
     //public function (): ;
 }
 
