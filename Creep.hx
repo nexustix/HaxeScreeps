@@ -19,30 +19,30 @@ extern class Creep extends RoomObject{
     //TODO use function overloading to make functions less broad ?
 
     //XXX verry broad
-    public static function attack(target: RoomObject): Int;
+    public function attack(target: RoomObject): Int;
     //XXX StructureController istead of Structure
-    public static function attackController(target: StructureController): Int;
-    public static function build(target: ConstructionSite): Int;
-    public static function cancelOrder(methodName: String): Int;
+    public function attackController(target: StructureController): Int;
+    public function build(target: ConstructionSite): Int;
+    public function cancelOrder(methodName: String): Int;
     //XXX StructureController istead of Structure
-    public static function claimController(target: StructureController): Int;
-    public static function dismantle(target: Structure): Int;
-    public static function drop(resourceType: String, ?amount: Int): Int;
-    public static function getActiveBodyparts(type: String): Int;
+    public function claimController(target: StructureController): Int;
+    public function dismantle(target: Structure): Int;
+    public function drop(resourceType: String, ?amount: Int): Int;
+    public function getActiveBodyparts(type: String): Int;
     //XXX RoomObject istead of Source or Mineral
 
-    public static function harvest(target: RoomObject): Int;
-    //public static function harvest(target: Source): Int;
-    //public static function harvest(target: Mineral): Int;
+    public function harvest(target: RoomObject): Int;
+    //public function harvest(target: Source): Int;
+    //public function harvest(target: Mineral): Int;
 
-    public static function heal(target: Creep): Int;
-    public static function move(direction: Int): Int;
-    //??? public static function moveByPath(): Int;
+    public function heal(target: Creep): Int;
+    public function move(direction: Int): Int;
+    //??? public function moveByPath(): Int;
     //FIXME add otions
-    //public static function moveTo(x: Int,y: Int): Int;
-    public static function moveTo(target: RoomPosition): Int;
-    //public static function moveTo(target: RoomObject): Int;
-    //public static function (): ;
+    //public function moveTo(x: Int,y: Int): Int;
+    public function moveTo(target: RoomPosition): Int;
+    //public function moveTo(target: RoomObject): Int;
+    //public function (): ;
 }
 
 
