@@ -1,20 +1,19 @@
 package;
 
 extern class Creep extends RoomObject{
-    public static var body:             Array<BodyPart>;
-    //public static var carry: ???;
-    public static var carryCapacity:    Int;
-    public static var fatigue:          Int;
-    public static var hits:             Int;
-    public static var hitsMax:          Int;
-    public static var id:               String;
-    public static var memory:           Dynamic;
-    public static var my:               Bool;
-    public static var name:             String;
-    //public static var owner: ???;
-    public static var spawning:         Bool;
-    public static var ticksToLive:      Int;
-
+    public var body:            Array<BodyPart>;    //XXX test
+    public var carry:           Carry;              //XXX revisit
+    public var carryCapacity:   Int;
+    public var fatigue:         Int;
+    public var hits:            Int;
+    public var hitsMax:         Int;
+    public var id:              String;
+    public var memory:          Dynamic;
+    public var my:              Bool;
+    public var name:            String;
+    public var owner:           Owner;              //XXX revisit
+    public var spawning:        Bool;
+    public var ticksToLive:     Int;
 
     //@:overload(function(target: StructureSpawn): Int{})
     @:overload(function(target: Structure): Int{})
@@ -69,7 +68,17 @@ extern class Creep extends RoomObject{
 
 extern class BodyPart{
     //FIXME could have no boost
-    public static var boost:    String;
-    public static var tpe:      String;
-    public static var hits:     Int;
+    public var boost:    String;
+    public var type:      String;
+    public var hits:     Int;
+}
+
+
+extern class Owner{
+    public var name
+}
+
+//TODO implement
+extern class Carry{
+
 }
