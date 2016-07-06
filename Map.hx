@@ -1,4 +1,0 @@
-package;
-
-extern class Map {
-}
