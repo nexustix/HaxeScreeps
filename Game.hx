@@ -18,7 +18,7 @@ extern class Game {
 
     //XXX may fail to find Object
     public static function getObjectById(id: String): RoomObject;
-    public static function notify(message: String, groupInterval:Int): Void;
+    public static function notify(message: String, ?groupInterval: Int): Void;
 
 }
 
