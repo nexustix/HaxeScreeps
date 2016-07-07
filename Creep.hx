@@ -76,7 +76,7 @@ extern class BodyPart{
 
 
 extern class Owner{
-    public var name
+    public var name: String;
 }
 
 //TODO implement
