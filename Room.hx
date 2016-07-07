@@ -25,7 +25,7 @@ extern class Room {
     @:overload(function(room: String): Int{})
     public function findExitTo(room: Room): Int;
 
-    public function findPath(fromPos: RoomPosition, toPos: RoomPosition, ?opts PathfindOptions): Path;
+    public function findPath(fromPos: RoomPosition, toPos: RoomPosition, ?opts: PathfindOptions): Path;
     public function getPositionAt(x: Int, y: Int): RoomPosition;
 
     @:overload(function(target: RoomObject): LookResults{})
