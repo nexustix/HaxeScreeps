@@ -1,8 +1,8 @@
 package;
 
 extern class Creep extends RoomObject{
-    public var body:            Array<BodyPart>;    //XXX test
-    public var carry:           Carry;              //XXX revisit
+    public var body:            Array<BodyPart>;    //TODO test
+    public var carry:           Carry;              //TODO revisit
     public var carryCapacity:   Int;
     public var fatigue:         Int;
     public var hits:            Int;
@@ -11,7 +11,7 @@ extern class Creep extends RoomObject{
     public var memory:          Dynamic;
     public var my:              Bool;
     public var name:            String;
-    public var owner:           Owner;              //XXX revisit
+    public var owner:           Owner;              //TODO revisit
     public var spawning:        Bool;
     public var ticksToLive:     Int;
 
@@ -36,9 +36,9 @@ extern class Creep extends RoomObject{
     public function move(direction: Int): Int;
     public function moveByPath(path: Path): Int;
 
-    @:overload(function(x: Int,y: Int): Int{})
-    @:overload(function(target: RoomObject): Int{})
-    public function moveTo(target: RoomPosition): Int;
+    @:overload(function(x: Int,y: Int, ?opts: PathfindOptions): Int{})
+    @:overload(function(target: RoomObject, ?opts: PathfindOptions): Int{})
+    public function moveTo(target: RoomPosition, ?opts: PathfindOptions): Int;
 
     public function notifyWhenAttacked(enabled: Bool): Int;
     public function pickup(target: Resource): Int;
@@ -69,6 +69,7 @@ extern class Creep extends RoomObject{
 extern class BodyPart{
     //FIXME could have no boost
     public var boost:    String;
+    //TODO check if "type" is reserved in Haxe (or in JS)
     public var type:      String;
     public var hits:     Int;
 }
