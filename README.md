@@ -20,7 +20,7 @@ Most classes are placeholders and will be filled in time.
   - [ ] Mineral
   - [ ] Nuke
   - [ ] Resource
-  - [ ] Source
+  - [X] Source
   - [ ] Structure
     - [ ] OwnedStructure
       - [ ] StructureController
