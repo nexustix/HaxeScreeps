@@ -20,7 +20,7 @@ extern class Room {
     @:overload(function(x: Int, y: Int, ?name: String, ?color: String, ?secondaryColor: String): Int{})
     public function createFlag(pos: RoomPosition, ?name: String, ?color: String, ?secondaryColor: String): Int;
 
-    public function find(type: Int, ?opts PathfindOptions): Array<RoomObject>;
+    public function find(type: Int, ?opts: PathfindOptions): Array<RoomObject>;
 
     @:overload(function(room: String): Int{})
     public function findExitTo(room: Room): Int;
