@@ -5,16 +5,12 @@ Experimental library for writing a Screeps AI in Haxe
 Most classes are placeholders and will be filled in time.
 
 
-
 - [X] Game
 - [ ] Map
 - [ ] Market
 - [ ] Memory
 - [ ] PathFinder
 - [ ] RawMemory
-
-
-
 - [X] Room
 - [X] RoomPosition
 - [X] RoomObject
