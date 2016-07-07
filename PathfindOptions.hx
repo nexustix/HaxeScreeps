@@ -10,7 +10,7 @@ typedef PathfindOptions = {
     ?ignoreCreeps:                  Bool,
     ?ignoreDestructibleStructures:  Bool,
     ?ignoreRoads:                   Bool,
-    ?costCallback:                  function(string: String, costMatrix: Dynamic), //TODO Test
+    //?costCallback:                  function(string: String, costMatrix: Dynamic), //TODO Test
     //FIXME allow RoomObject
     ?ignore:                        Array<RoomPosition>,
     ?avoid:                         Array<RoomPosition>,
