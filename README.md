@@ -1,6 +1,9 @@
 # HaxeScreeps
 Experimental library for writing a Screeps AI in Haxe
 
+###Limitations
+TBA
+
 ###Status
 Most classes are placeholders and will be filled in time.
 
@@ -21,8 +24,8 @@ Most classes are placeholders and will be filled in time.
   - [ ] Nuke
   - [ ] Resource
   - [X] Source
-  - [ ] Structure
-    - [ ] OwnedStructure
+  - [X] Structure
+    - [X] OwnedStructure
       - [ ] StructureController
       - [ ] StructureExtension
       - [ ] StructureExtractor
@@ -34,7 +37,7 @@ Most classes are placeholders and will be filled in time.
       - [ ] StructurePowerBank
       - [ ] StructurePowerSpawn
       - [ ] StructureRampart
-      - [ ] StructureSpawn
+      - [X] StructureSpawn
       - [ ] StructureStorage
       - [ ] StrutureTerminal
       - [ ] StructureTower
