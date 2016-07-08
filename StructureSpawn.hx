@@ -7,7 +7,15 @@ extern class StructureSpawn extends OwnedStructure {
     public var name:            String;
     public var spawning:        SpawningStatus;
 
-    public function createCreep (body: Array<String>, ?name: String, ?memory: Dynamic): Int;
+    public function canCreateCreep(body: Array<String>, ?name: String): Int;
+    public function createCreep(body: Array<String>, ?name: String, ?memory: Dynamic): Int;
+    public function recycleCreep(target: Creep): Int;
+    public function renewCreep(target: Creep): Int;
+    public function transferEnergy(target: Creep): Int;
+
+    //@:overload(function(): {})
+    //public function (): ;
+
 }
 
 class SpawningStatus{
