@@ -20,7 +20,7 @@ TBA
   - [X] ConstructionSite
   - [X] Creep
   - [X] Flag
-  - [ ] Mineral
+  - [X] Mineral
   - [ ] Nuke
   - [ ] Resource
   - [X] Source
