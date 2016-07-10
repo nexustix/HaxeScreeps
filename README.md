@@ -22,7 +22,7 @@ TBA
   - [X] Flag
   - [X] Mineral
   - [X] Nuke
-  - [ ] Resource
+  - [X] Resource
   - [X] Source
   - [X] Structure
     - [X] OwnedStructure
