@@ -4,9 +4,9 @@ Experimental library for writing a Screeps AI in Haxe
 ###Limitations
 TBA
 
-###Status
-Most classes are placeholders and will be filled in time.
+##Status
 
+###Implementing
 
 - [X] Game
 - [ ] Map
@@ -45,3 +45,43 @@ Most classes are placeholders and will be filled in time.
   - [X] StructurePortal
   - [X] StructureRoad
   - [X] StructureWall
+
+###Testing
+
+- [ ] Game
+- [ ] Map
+- [ ] Market
+- [ ] Memory
+- [ ] PathFinder
+- [ ] RawMemory
+- [ ] Room
+- [ ] RoomPosition
+- [ ] RoomObject
+  - [ ] ConstructionSite
+  - [ ] Creep
+  - [ ] Flag
+  - [ ] Mineral
+  - [ ] Nuke
+  - [ ] Resource
+  - [ ] Source
+  - [ ] Structure
+    - [ ] OwnedStructure
+      - [ ] StructureController
+      - [ ] StructureExtension
+      - [ ] StructureExtractor
+      - [ ] StructureKeeperLair
+      - [ ] StructureLab
+      - [ ] StructureLink
+      - [ ] StructureNuker
+      - [ ] StructureObserver
+      - [ ] StructurePowerBank
+      - [ ] StructurePowerSpawn
+      - [ ] StructureRampart
+      - [ ] StructureSpawn
+      - [ ] StructureStorage
+      - [ ] StrutureTerminal
+      - [ ] StructureTower
+  - [ ] StructureContainer
+  - [ ] StructurePortal
+  - [ ] StructureRoad
+  - [ ] StructureWall
