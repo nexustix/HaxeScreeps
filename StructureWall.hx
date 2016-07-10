@@ -1,4 +1,5 @@
 package;
 
-extern class StrcutureWall {
+extern class StrcutureWall extends Structure {
+    public var ticksToDecay:    Int;
 }
