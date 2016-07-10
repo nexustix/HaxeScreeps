@@ -40,7 +40,7 @@ Most classes are placeholders and will be filled in time.
       - [X] StructureSpawn
       - [X] StructureStorage
       - [X] StrutureTerminal
-      - [ ] StructureTower
+      - [X] StructureTower
   - [ ] StructureContainer
   - [ ] StructurePortal
   - [ ] StructureRoad
