@@ -40,10 +40,7 @@ extern class Room {
     public function lookForAt(type: String, target: RoomPosition): Array<RoomObject>;
 
     //TODO test
-    public function lookForAtArew(top: Int, left: Int, bottom: Int, right: Int): Array<Array<RoomObject>>;
-
-    //@:overload(function(): {})
-    //public function (): ;
+    public function lookForAtArea(top: Int, left: Int, bottom: Int, right: Int): Array<Array<RoomObject>>;
 }
 
 class LookResults{

@@ -11,5 +11,4 @@ extern class Flag extends RoomObject {
 
     @:overload(function(x: Int, y: Int): Int{})
     public function setPosition(pos: RoomPosition): Int;
-
 }

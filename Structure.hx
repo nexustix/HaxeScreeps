@@ -9,7 +9,4 @@ extern class Structure extends RoomObject {
     public function destroy(): Int;
     public function isActive(): Bool;
     public function notifyWhenAttacked(enabled: Bool): Int;
-
-    //@:overload(function(): {})
-    //public function (): ;
 }

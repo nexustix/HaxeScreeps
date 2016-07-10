@@ -60,9 +60,6 @@ extern class Creep extends RoomObject{
 
     //XXX StructureController istead of Structure
     public function upgradeController(target: StructureController): Int;
-
-    //@:overload(function(): {})
-    //public function (): ;
 }
 
 
@@ -74,10 +71,11 @@ extern class BodyPart{
     public var hits:     Int;
 }
 
-
+/*
 extern class Owner{
     public var name: String;
 }
+*/
 
 //TODO implement
 extern class Carry{

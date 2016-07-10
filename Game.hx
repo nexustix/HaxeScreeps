@@ -13,13 +13,9 @@ extern class Game {
     public static var structures:   PolyObj<Structure>;
     public static var time:         Int;
 
-    //public static var cpu: Dynamic;
-    //public static var gcl: Dynamic;
-
     //XXX may fail to find Object
     public static function getObjectById(id: String): RoomObject;
     public static function notify(message: String, ?groupInterval: Int): Void;
-
 }
 
 extern class CPU{

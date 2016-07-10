@@ -1,5 +1,4 @@
 package;
 
 extern class Path{
-    
 }
