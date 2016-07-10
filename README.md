@@ -21,7 +21,7 @@ TBA
   - [X] Creep
   - [X] Flag
   - [X] Mineral
-  - [ ] Nuke
+  - [X] Nuke
   - [ ] Resource
   - [X] Source
   - [X] Structure
