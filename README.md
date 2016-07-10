@@ -30,7 +30,7 @@ Most classes are placeholders and will be filled in time.
       - [x] StructureExtension
       - [X] StructureExtractor
       - [X] StructureKeeperLair
-      - [ ] StructureLab
+      - [X] StructureLab
       - [ ] StructureLink
       - [ ] StructureNuker
       - [ ] StructureObserver
