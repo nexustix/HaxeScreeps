@@ -1,4 +1,5 @@
 package;
 
-extern class StructureRoad {
+extern class StructureRoad extends Structure {
+    public var ticksToDecay: Int;
 }
