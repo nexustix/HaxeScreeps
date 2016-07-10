@@ -1,4 +1,5 @@
 package;
 
-extern class StructureObserver {
+extern class StructureObserver extends OwnedStructure {
+    public function observeRoom(roomName: String): Int;
 }
