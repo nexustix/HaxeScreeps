@@ -19,7 +19,7 @@ TBA
 - [X] RoomObject
   - [X] ConstructionSite
   - [X] Creep
-  - [ ] Flag
+  - [X] Flag
   - [ ] Mineral
   - [ ] Nuke
   - [ ] Resource
