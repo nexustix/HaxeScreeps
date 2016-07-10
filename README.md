@@ -31,7 +31,7 @@ Most classes are placeholders and will be filled in time.
       - [X] StructureExtractor
       - [X] StructureKeeperLair
       - [X] StructureLab
-      - [ ] StructureLink
+      - [X] StructureLink
       - [ ] StructureNuker
       - [ ] StructureObserver
       - [ ] StructurePowerBank
