@@ -17,7 +17,7 @@ TBA
 - [X] Room
 - [X] RoomPosition
 - [X] RoomObject
-  - [ ] ConstructionSite
+  - [X] ConstructionSite
   - [X] Creep
   - [ ] Flag
   - [ ] Mineral
