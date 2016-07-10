@@ -34,7 +34,7 @@ Most classes are placeholders and will be filled in time.
       - [X] StructureLink
       - [X] StructureNuker
       - [X] StructureObserver
-      - [ ] StructurePowerBank
+      - [X] StructurePowerBank
       - [ ] StructurePowerSpawn
       - [ ] StructureRampart
       - [X] StructureSpawn
