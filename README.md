@@ -42,6 +42,6 @@ Most classes are placeholders and will be filled in time.
       - [X] StrutureTerminal
       - [X] StructureTower
   - [X] StructureContainer
-  - [ ] StructurePortal
+  - [X] StructurePortal
   - [ ] StructureRoad
   - [ ] StructureWall
