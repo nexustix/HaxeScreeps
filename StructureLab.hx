@@ -12,7 +12,4 @@ extern class StructureLab extends OwnedStructure {
     //XXX using StructureLab instead of Structure
     public function runReaction(lab1: StructureLab, lab2: StructureLab): Int;
     public function transfer(target: Creep, resourceType: String, ?amount: Int): Int;
-
-    //@:overload(function(): {})
-    //public function (): ;
 }

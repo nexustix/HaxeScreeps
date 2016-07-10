@@ -9,9 +9,6 @@ extern class StructureController extends OwnedStructure {
     public var upgradeBlocked:      Int;
 
     public function unclaim(): Int;
-
-    //@:overload(function(): {})
-    //public function (): ;
 }
 
 extern class Reservation{

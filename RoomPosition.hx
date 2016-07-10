@@ -9,5 +9,4 @@ extern class RoomPosition {
     public function new() {
 
     }
-
 }
