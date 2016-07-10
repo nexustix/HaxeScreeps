@@ -1,4 +1,4 @@
 package;
 
-extern class StructureExtractor {
+extern class StructureExtractor extends OwnedStructure {
 }

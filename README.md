@@ -28,7 +28,7 @@ Most classes are placeholders and will be filled in time.
     - [X] OwnedStructure
       - [X] StructureController
       - [x] StructureExtension
-      - [ ] StructureExtractor
+      - [X] StructureExtractor
       - [ ] StructureKeeperLair
       - [ ] StructureLab
       - [ ] StructureLink
