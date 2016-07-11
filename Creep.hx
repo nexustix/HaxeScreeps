@@ -2,7 +2,7 @@ package;
 
 extern class Creep extends RoomObject{
     public var body:            Array<BodyPart>;    //TODO test
-    public var carry:           Carry;              //TODO revisit
+    public var carry:           PolyObj<Int>;
     public var carryCapacity:   Int;
     public var fatigue:         Int;
     public var hits:            Int;
@@ -11,7 +11,7 @@ extern class Creep extends RoomObject{
     public var memory:          Dynamic;
     public var my:              Bool;
     public var name:            String;
-    public var owner:           Owner;              //TODO revisit
+    public var owner:           Owner;
     public var spawning:        Bool;
     public var ticksToLive:     Int;
 
@@ -69,15 +69,4 @@ extern class BodyPart{
     //TODO check if "type" is reserved in Haxe (or in JS)
     public var type:      String;
     public var hits:     Int;
-}
-
-/*
-extern class Owner{
-    public var name: String;
-}
-*/
-
-//TODO implement
-extern class Carry{
-
 }
