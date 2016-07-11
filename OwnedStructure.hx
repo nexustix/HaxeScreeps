@@ -1,7 +1,7 @@
 package;
 
 extern class OwnedStructure extends Structure{
-    public static var my:       Bool;
+    public var my:       Bool;
     //TODO create Owner class ?
-    public static var owner:    Owner;
+    public var owner:    Owner;
 }
