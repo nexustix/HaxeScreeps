@@ -13,7 +13,7 @@ TBA
 - [ ] Market
 - [ ] Memory
 - [ ] PathFinder
-- [ ] RawMemory
+- [X] RawMemory
 - [X] Room
 - [X] RoomPosition
 - [X] RoomObject
