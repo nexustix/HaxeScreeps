@@ -1,5 +1,5 @@
 # HaxeScreeps
-Experimental library for writing a Screeps AI in Haxe
+Experimental library for writing Screeps AI in Haxe
 
 ##Status
 Development paused
