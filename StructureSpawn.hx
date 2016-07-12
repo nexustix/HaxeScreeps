@@ -12,10 +12,6 @@ extern class StructureSpawn extends OwnedStructure {
     public function recycleCreep(target: Creep): Int;
     public function renewCreep(target: Creep): Int;
     public function transferEnergy(target: Creep): Int;
-
-    //@:overload(function(): {})
-    //public function (): ;
-
 }
 
 class SpawningStatus{

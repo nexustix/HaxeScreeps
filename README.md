@@ -1,12 +1,10 @@
 # HaxeScreeps
 Experimental library for writing a Screeps AI in Haxe
 
-###Limitations
-TBA
-
 ##Status
+Development paused
 
-###Implementing
+###Implementation progress
 
 - [X] Game
 - [ ] Map
@@ -45,43 +43,3 @@ TBA
   - [X] StructurePortal
   - [X] StructureRoad
   - [X] StructureWall
-
-###Testing
-
-- [ ] Game
-- [ ] Map
-- [ ] Market
-- [ ] Memory
-- [ ] PathFinder
-- [ ] RawMemory
-- [ ] Room
-- [ ] RoomPosition
-- [ ] RoomObject
-  - [ ] ConstructionSite
-  - [ ] Creep
-  - [ ] Flag
-  - [ ] Mineral
-  - [ ] Nuke
-  - [ ] Resource
-  - [ ] Source
-  - [ ] Structure
-    - [ ] OwnedStructure
-      - [ ] StructureController
-      - [ ] StructureExtension
-      - [ ] StructureExtractor
-      - [ ] StructureKeeperLair
-      - [ ] StructureLab
-      - [ ] StructureLink
-      - [ ] StructureNuker
-      - [ ] StructureObserver
-      - [ ] StructurePowerBank
-      - [ ] StructurePowerSpawn
-      - [ ] StructureRampart
-      - [ ] StructureSpawn
-      - [ ] StructureStorage
-      - [ ] StrutureTerminal
-      - [ ] StructureTower
-  - [ ] StructureContainer
-  - [ ] StructurePortal
-  - [ ] StructureRoad
-  - [ ] StructureWall
